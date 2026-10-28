@@ -8,10 +8,7 @@ export type RootStackParamList = {
     roomId?: string;
     title?: string;
   };
-  // 0.10.16: rute Deck (Office 3D) dinonaktifkan sementara (Sam 28
-  // Okt 07:48 — "belum maksimal"). Balikin baris ini + layar di
-  // App.tsx bila Sam bilang sudah maksimal.
-  // Deck: undefined;
+  // Office (Kantor 3D) DIHAPUS dari repo (Sam 28 Okt).
   Computer: undefined;
   TeamComputer: {
     characterId?: string;

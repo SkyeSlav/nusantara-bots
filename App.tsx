@@ -13,10 +13,7 @@ import { recordImportedConfig } from './src/api/modelProfiles';
 import { loadAvatarOverrides } from './src/api/avatar';
 import { HomeScreen } from './src/screens/HomeScreen';
 import { ChatScreen } from './src/screens/ChatScreen';
-// 0.10.16: Office (Deck 3D) DISEMBUNYIKAN sementara (Sam 28 Okt
-// 07:48 — "belum maksimal"). File DeckScreen tetap ada; balikin
-// import + rute di bawah bila Sam bilang sudah maksimal.
-// import { DeckScreen } from './src/screens/DeckScreen';
+// Office (Kantor 3D) DIHAPUS dari repo (Sam 28 Okt — "belum maksimal").
 import { ComputerScreen } from './src/screens/ComputerScreen';
 import { TeamComputerScreen } from './src/screens/TeamComputerScreen';
 import { McpScreen } from './src/screens/McpScreen';
@@ -62,8 +59,6 @@ export default function App() {
       >
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Chat" component={ChatScreen} />
-        {/* 0.10.16: rute Deck (Office 3D) dinonaktifkan sementara — lihat import di atas. */}
-        {/* <Stack.Screen name="Deck" component={DeckScreen} /> */}
         <Stack.Screen name="Computer" component={ComputerScreen} />
         <Stack.Screen name="TeamComputer" component={TeamComputerScreen} />
         <Stack.Screen name="Mcp" component={McpScreen} />

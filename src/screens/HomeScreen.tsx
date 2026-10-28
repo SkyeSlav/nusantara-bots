@@ -147,10 +147,8 @@ export function HomeScreen() {
           <Text style={styles.ownerLetter}>S</Text>
         </Pressable>
         <View style={styles.pill}>
-          {/* 0.10.16: tombol Kantor (Deck 3D) DISEMBUNYIKAN sementara
-              (Sam 28 Okt 07:48 — "belum maksimal"). Kodenya tetap ada
-              (DeckScreen + rute Deck); balikin tombol ini + rute di
-              App.tsx / navigation.ts bila Sam bilang sudah maksimal. */}
+          {/* Office (Kantor 3D) DIHAPUS dari repo (Sam 28 Okt —
+// "belum maksimal"); tidak ada lagi tombol Kantor. */}
           <Pressable
             style={styles.pillButton}
             onPress={() => navigation.navigate('Computer')}
