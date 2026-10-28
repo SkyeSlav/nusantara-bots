@@ -41,6 +41,19 @@ Donasi dipakai untuk pengembangan aplikasi. Terima kasih atas dukungannya! 🙏
 
 ---
 
+## 📥 Download APK
+
+**Silahkan download APK-nya** di halaman release:
+
+👉 **[Download APK v0.10.16](https://github.com/sam666-byte/nusantara-bots/releases)**
+
+- **`nusantara-bots-0.10.16-arm64.apk`** — untuk HP Android (ARM64, kebanyakan HP).
+- **`nusantara-bots-0.10.16-x86_64.apk`** — untuk emulator (x86_64).
+
+Install APK ke HP, lalu buka **Settings → Pilih model** dan masukkan API key kamu (BYOK).
+
+---
+
 ## ✨ Fitur
 
 - **🤖 Tim bot AI** — Buat banyak bot dengan karakter dan tugas masing-masing. Ngobrol dengan mereka dalam satu aplikasi.
