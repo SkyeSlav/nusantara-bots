@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+android/app/build/
+android/build/
+android/app/debug.keystore
+android/*.iml
+android/local.properties
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# Expo / Metro (generated)
+/.expo/
+dist/
+.expo-shared/
+
+# iOS (not used — this project builds Android only)
+ios/
+
+# Environment & secrets — NEVER commit these
+.env
+.env.*
+*.env
+
+# Logs & caches
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.metro-health-check*
+.watchmanconfig
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Test coverage
+coverage/

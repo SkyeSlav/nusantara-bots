@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#000000",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "id.xtreme.grokbotown",
+      "predictiveBackGestureEnabled": false,
+      "versionCode": 25
+    },
+    "icon": "./assets/icon.png",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "id.xtreme.grokbotown"
+    },
+    "name": "Nusantara Bots",
+    "orientation": "portrait",
+    "slug": "grokbotown",
+    "userInterfaceStyle": "dark",
+    "version": "0.10.16",
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
